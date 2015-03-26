@@ -23,7 +23,6 @@ header a
 }
 #cuerpo
 {
-    width: 80%;
     margin: 0 0 0 8em;
 }
 
@@ -35,6 +34,17 @@ header, #cuerpo
 #barra
 {
 	margin: 13%;
+}
+
+#baner
+{
+	width: 100%;
+	height: 30%;
+}
+#baner img
+{
+	width: 100%;
+	height: 100%;
 }
 
 
