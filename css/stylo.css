@@ -24,7 +24,7 @@ header a
 #cuerpo
 {
     width: 80%;
-    margin: 0 0 0 9em;
+    margin: 0 0 0 8em;
 }
 
 header, #cuerpo
@@ -32,7 +32,7 @@ header, #cuerpo
 	display: inline-block;
 	vertical-align: top;
 }
-div
+#barra
 {
 	margin: 13%;
 }
