@@ -1,4 +1,4 @@
-
+@import url(http://fonts.googleapis.com/css?family=Fugaz+One);
 .menu-h {
 	position: fixed; 
 	left: 0; 
@@ -27,6 +27,8 @@ a
 {
 		background: #333333;
 		padding: 4px;
+		trasition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
 		
 }
 .img-hi
@@ -41,8 +43,9 @@ a
 	color: white;
 	width: 7em;
 	height: 2em;
-	background: #333333;
-	
+	background: #0088aa;
+	font-family: 'Fugaz One', cursive;
+	padding: 0.4em 0 0 0;
 	font-size: 26px;
 }
 .img-h:hover
