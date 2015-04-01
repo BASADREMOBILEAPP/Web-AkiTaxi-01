@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Anton);
 body
 {
 	background: #FFFFF2;
@@ -17,10 +18,15 @@ header
 }
 #logo img
 {
-	width: 80%;
+	width: 90%;
 	
 	margin: 0 auto;
 	padding: 0;
+}
+#logo-h
+{
+	width: 80%;
+ margin: 0 auto;
 }
 
 #icon, header h5
@@ -91,13 +97,38 @@ header
 #baner
 {
 	width: 100%;
-	height: 30%;
+	
+	background: #0088aa;
 }
-#baner img
+#baner-h
 {
-	width: 100%;
-	height: 100%;
+	width: 60%;
+ margin: 0 auto;
 }
+#descarga
+{
+	width: 23em;
+	margin: 0 auto;
+	padding: 0.2px 1em;
+	background: #42d420;
+
+	/*background-color: rgba(0, 0, 0, 0.3);*/
+	/*border:8px solid rgba(0, 0, 0, 0.6);*/
+}
+
+#descarga-h
+{
+	
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+}
+#baner a
+{
+	margin: 0 10em 0 0;
+}
+
 
 
 
