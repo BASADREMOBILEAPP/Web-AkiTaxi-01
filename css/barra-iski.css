@@ -1,0 +1,67 @@
+
+.menu-h {
+	position: fixed; 
+	left: 0; 
+	z-index: 2000;
+	height: 100%; 
+	margin: 0 0 0 0;
+
+
+}
+ 
+.menu-h li 
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+}
+.img-h, .read-h
+{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+.img-h
+{
+		background: #333333;
+		padding: 4px;
+		
+}
+.img-hi
+{
+	background: #333333;
+		width: 4.0em;
+		height: 100em;
+		cursor: default;
+}
+.img-h:hover + .read-h 
+{
+	color: white;
+	width: 7em;
+	height: 2em;
+	background: #333333;
+	
+	font-size: 26px;
+}
+.img-h:hover
+{
+	background: #0088aa;
+}
+.read-h
+{
+	text-align: center;
+	width: 0px;
+	color: transparent;
+	background: transparent;
+	cursor: default;
+	margin-left: 0px;
+	font-size: 0px;
+}
+#baner a
+{
+	list-style: none;
+	text-decoration: none;
+}
+
