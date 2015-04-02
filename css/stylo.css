@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Passion+One);
 
 body
 {
@@ -106,6 +107,61 @@ header
 	  background-color: rgba(0, 0, 0, 0.3);
 	  border:2px solid white;
 
+}
+/*servicios*/
+#servicios
+{
+	margin: 0 0 0 4em;
+	position:relative;
+    background: url('../img/image4603.png') no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px; 
+}
+#contenedor-s
+{
+	width: 15em;
+	  
+	background: transparent;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5% 3% 6% 5% ;
+
+}
+#contenedor-i
+{
+	width: 85%;
+	margin: 0 auto;
+	padding: 1em 0;
+
+}
+#contenedor-i img
+{
+	width: 100%;
+	height: 100%;
+}
+#contenedor-t
+{
+  
+  text-align: center;
+  font-family: 'Passion One', cursive;
+  color: white;
+  background: #00cc52;
+}
+#texto-s
+{
+	margin: 0 auto;
+	
+}
+#texto-s p
+{
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Passion One', cursive;
+	color: white;
 }
 
 
